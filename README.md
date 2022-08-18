@@ -1,5 +1,5 @@
 # Measure Intensity of Labkit ROIs
-## Laura Cooper, camdu@Warwick.ac.uk
+## Laura Cooper, camdu@warwick.ac.uk
 Adapted from Meghane Sittewelle's IntensityROIanalysis, Aug 2022
 
 This macro gets the intensity of regions classified by labkit.
