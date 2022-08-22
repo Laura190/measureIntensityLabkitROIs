@@ -2,6 +2,12 @@
 ## Laura Cooper, camdu@warwick.ac.uk
 Adapted from Meghane Sittewelle's IntensityROIanalysis, Aug 2022
 
+### IntensityAroundMaxPoints.ijm
+Macro to get the intensity of regions around max intensity
+
+Image must be open before running macro. Requires number of time frames to be projected, promience value for find maxima and radius of regions to be measured.
+
+No results are automatically saved.
 
 ### LabkitRoiIntensityAnalysis.ijm
 This macro gets the intensity of regions classified by labkit.
@@ -23,6 +29,6 @@ The measurements are sorted by channel. The Ch# column indicates which channel i
 ### TwoStacks2Hyperstack.ijm
 Creates a hyperstack from two image stacks
 
-It requires 2 images parts
+It requires 2 images parts. The output is not saved.
 
 Developed and tested using ImageJ 1.53q Java 1.8.0_322
