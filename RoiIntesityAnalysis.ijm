@@ -18,8 +18,7 @@
 //Clear roi manager and result table
 roiManager("reset"); 
 run("Clear Results")
-getDateAndTime(year, month, dayOfWeek, dayOfMonth, hour, minute, second, msec);
-print(minute, second, msec)
+
 //Open and concatenate image parts
 //open(part1);
 run("TIFF Virtual Stack...", "open=["+part1+"]");
@@ -30,8 +29,7 @@ stack2=getTitle()
 run("Concatenate...", "open image1=["+stack1+"] image2=["+stack2+"]");
 run("Stack to Hyperstack...", "order=xyczt(default) channels=3 slices=1 frames=360 display=Color");
 rename("original");
-getDateAndTime(year, month, dayOfWeek, dayOfMonth, hour, minute, second, msec);
-print(minute, second, msec)
+
 
 if (isNaN(cell_regions)) {
 	// Load ROI file
