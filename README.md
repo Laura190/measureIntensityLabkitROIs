@@ -19,4 +19,10 @@ There is an option to specify .roi file for the cell regions. If a file is not g
 
 The measurements are sorted by channel. The Ch# column indicates which channel is being measured. Each column is a measurment with a number at the end.  Each number refers to an ROI, there are 8 columns per ROI.
 
+
+### TwoStacks2Hyperstack.ijm
+Creates a hyperstack from two image stacks
+
+It requires 2 images parts
+
 Developed and tested using ImageJ 1.53q Java 1.8.0_322
